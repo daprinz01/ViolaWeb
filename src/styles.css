@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
+@import '~animate.css/animate.min.css';
+
+.bg-orange{
+  background-color: orangered;
+}
+.animate-delay-2s{
+  animation-delay: 2s;
+}
+.animate-delay-3s{
+  animation-delay: 3s;
+}
+.animate-2s{
+  animation-duration: 2s;
+}
+.animate-3s{
+  animation-direction: 3s;
+}
+.text-orange{
+  color: orangered;
+}
+.btn-orange{
+  background-color: orangered;
+  color: white;
+  border-color: orangered;
+  border-radius: 30px;
+}
+.btn-orange:hover{
+  color: white !important;
+  border-style: ridge;
+}
+.card-img-size{
+  width: 100px;
+  height: 180px;
+}
+.my-card{
+  background-color: white;
+  border-style: solid 20px;
+  border-radius: 10px;
+  display: inline-block;
+  size: relative;
+}
+.my-card-content{
+  display: block;
+  padding: 2em;
+  float: right !important;
+}
+.facebook{
+  color: blue;
+}
+.twitter{
+  color: cornflowerblue;
+}
